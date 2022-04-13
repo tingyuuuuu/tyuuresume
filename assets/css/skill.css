@@ -1,0 +1,136 @@
+.skill{
+    position: absolute;
+    width:800px;
+    height:60vh;
+    top: 1100px;
+    left: calc(40% - 550px);
+    background-color:#EED0A9 ;
+
+    border-radius: 20px; 
+    display:block;
+    
+  }
+
+  .text{
+    position: absolute;
+    width:680px;
+    height:60vh;
+    top: 1100px;
+    left: calc(83% - 550px);
+    display:block;
+    background-color:#EED0A9 ;
+    border-radius: 20px; 
+    
+  }
+
+
+  .textimg{
+      position: absolute;
+      top: 134px;
+      border-radius: 15px;
+      filter: grayscale(100%);
+      left:118px;
+     z-index: 3;
+     transition: 0.5s;
+     width: 400px;
+     height: 280px;
+    
+  }
+.textimg:hover{
+    transform: scale(1.2);
+  }
+
+.textimg1{
+      position: absolute;
+      top: 160px;
+      border-radius: 15px;
+      filter: grayscale(100%);
+      left:150px;
+     z-index: 2;
+     transition: 0.5s;
+     width: 400px;
+     height: 280px;
+     opacity: 0.9;
+  }
+  .textimg1:hover{
+    transform: scale(1.2);
+    z-index:3;
+  }
+
+  .skill_h1 {
+    position:relative;
+    top: 0.5px;
+    color: #BB848B;
+    text-align: center;
+    mix-blend-mode: initial;
+    font-size: 3.0em;
+   
+  }
+
+  
+  .box{
+    position: relative;
+    display: flex;
+    margin: 20px 50px 20px 80px ;
+    padding: 5px 10px 15px 20px;
+    background-color: #954B54;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px solid #000;
+    transition: 0.5s;
+    width: 70%;
+    opacity: 0.4;
+  }
+
+  .skill-item{
+    position: relative;
+    width: 110px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 5px;
+  }
+
+  .loading{
+    position: relative;
+    width: calc(100% - 150px);
+    height: 25px;
+    margin: 0 10px;
+    margin-top: 8px;
+    border-radius: 8px;
+    background-color: #151515;
+    box-shadow: inset 0 0 10px #000;
+    overflow: hidden;
+  }
+
+  .process{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #FFC1E0, #B8B794);
+    box-shadow: inset 0 0 2px #000;
+    animation: animate 3s ease-in-out infinite forwards;
+    z-index: 1;
+  }
+
+  @keyframes animate {
+    from {
+        width: 0;
+    }
+}
+
+.value{
+    
+    width: 40px;
+    text-align: right;
+    color: #fff;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-left: 89%;
+    z-index: 5;
+}

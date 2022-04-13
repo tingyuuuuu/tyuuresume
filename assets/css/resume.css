@@ -1,0 +1,240 @@
+body{
+    margin:0 ;
+    padding: 0;
+    background-image :url("../img/backimg.jpg");
+   font-family: Didot, serif,"微軟正黑體";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.cover{
+    display: flex;
+}
+
+.cover-right{
+    width: 100%;
+    height: 50vh;
+    background-image:url("../img/right1.jpg") ;
+    z-index:99;
+    background-size: 100%,50%;
+    background-position: center;
+    
+}
+
+.cover_h1 {
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 400px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 4.6em;
+  }
+
+  .cover-left{
+      width: 100%;
+      height: 50vh;
+      background-image:url("../img/left.jpg") ;
+      z-index:99;
+      background-repeat: no-repeat;
+      background-size:cover;
+      background-position:center;
+      background-size: 100%,50%;
+      
+  }
+
+  .cover_h2 {
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    left: 400px;
+    right: 0;
+    margin: auto;
+    color: black;
+    text-align: center;
+    font-size: 4.6em;
+    mix-blend-mode: overlay;
+  }
+  .cover_h2:hover{
+    mix-blend-mode:initial;
+    color:#F1C893;
+  }
+
+nav{
+    margin-top: -20vh;
+    font-size: 22px;
+    text-align: center;  
+    
+}
+ 
+  nav ul{
+      margin: auto;
+      width: 510px;
+  }
+
+  nav li{
+      list-style: none;
+      display: inline-block;
+      position: relative;
+  }
+
+  nav a{
+      position: relative;
+      padding: 5px;
+      transition: 0.3s;
+      text-decoration: none;
+      color: #525252;
+      z-index:99;
+  }
+  nav a:hover{
+    opacity: 0.8;
+}
+/*
+section{
+    height: 581.39px;
+    width: 1500px;
+}
+*/
+.profile{
+    position: absolute;
+    width:1500px;
+    height:60vh;
+    top: 500px;
+    left: calc(40% - 550px);
+    background-color:#F5EDD7 ;
+    opacity: 1;
+    border-radius: 20px; 
+    display:block;
+    z-index:-99;
+  }
+  .profile_h1 {
+    position:relative;
+    top: 0.5px;
+    color: #BB848B;
+    text-align: center;
+    mix-blend-mode: initial;
+    font-size: 3.0em;
+    z-index:99;
+  }
+
+  .content{
+    display:flex;
+    margin-top: 55px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+    z-index:80;
+    width: 500px;
+  
+  }
+  .info{
+    flex:4;
+    text-align:left;
+    z-index:100;
+  }
+  
+  .info_content{
+    margin-left: 0px;
+    text-align:left;
+    font-size: 20px;
+    letter-spacing:  5px;
+    color: #737373;
+
+  }
+  section li{
+      width: 600px;
+      height: 50px;
+      margin: 20px 0;
+  }
+
+  .profile_photo{
+    
+    position: absolute;
+    margin-top: -450px;
+    margin-right: auto;
+    margin-left: 660px;
+    margin-bottom: 0px;
+    z-index:99;
+  
+  } 
+  
+  .photo_border{
+    position: absolute;
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 218px;
+    height: 218px;
+    border-radius:50%;
+    background-color:#E6CDD0;
+  }
+  
+  @keyframes living {
+    0% {
+          box-shadow: 0 0 0 0 rgba(193, 133, 140, 0.3), 0 0 0 1em rgba(193, 133, 140, 0.3), 0 0 0 3em rgba(193, 133, 140, 0.03), 0 0 0 5em rgba(193, 133, 140, 0.01);
+    }
+    100% {
+      box-shadow: 0 0 0 1em rgba(193, 133, 140, 0.3), 0 0 0 3em rgba(193, 133, 140, 0.03), 0 0 0 5em rgba(193, 133, 140, 0.03), 0 0 0 8em rgba(163, 177, 198, 0.01);
+    }
+  }
+ 
+  
+  .photo_border span{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 20px;
+    top: 20px;
+    bottom: 0;
+    background: black;
+    border-radius: 50%;
+    animation: living 1s linear infinite;
+    z-index: -1;
+  }
+  
+  .photo_border span:nth-child(2){
+    animation-delay: 1.5s; 
+  }
+  
+  .photo{
+    position: relative;
+    left:9.5px;
+    top:9.5px;
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+     
+  }
+  
+  .photo:hover{
+    left:4.5px;
+    top:4.5px;
+    width:210px;
+    height:210px;
+  }  
+
+  .intro{
+    position: absolute;
+    margin-top: -470px;
+    left:1050px;
+    text-align:right;
+    z-index:99;
+  }
+
+  .intro_content{
+   
+    text-align:justify;
+    letter-spacing: 2.5px;
+    width:400px;
+    height:300px;
+    font-size:16px;
+    font-family: Microsoft JhengHei;
+    line-height: 35px;
+    z-index:99;
+    color: #737373;
+  }

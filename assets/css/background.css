@@ -1,0 +1,143 @@
+.background{
+    position: absolute;
+    width:1500px;
+    height:50vh;
+    top: 1698px;
+    left: calc(40% - 550px);
+    background-color:#E1CFB7 ;
+    border-radius: 20px; 
+    display:block;
+    
+  }
+  .background_h1 {
+    position:relative;
+    top: 0.5px;
+    color: #BB848B;
+    text-align: center;
+    mix-blend-mode: initial;
+    font-size: 3.0em;
+    z-index:99;
+  }
+
+  .school{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 240px;
+  }
+
+  .school-item{
+    position: relative;
+    perspective: 1500px;
+    max-width: 100px;
+    max-height: 200px;
+}
+  
+
+.img-size {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 2;
+}
+.img-size2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 2;
+}
+.img-size1 {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    opacity: 0;
+}
+.img-size1:hover{
+    -webkit-transition: opacity 0.8s ease-in-out;
+    -moz-transition: opacity 0.8s ease-in-out;
+    -o-transition: opacity 0.8s ease-in-out;
+    transition: opacity 0.8s ease-in-out;
+    width: 200px;
+    height: 200px;
+    opacity:2;
+}
+.img-size:hover{
+   
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity:0;
+}
+
+.ele1,.ele2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin: 0px 0px 0px 132px;
+    backface-visibility: hidden;
+    border-radius: 50%;
+    border: 4px solid lightgray;
+}
+
+
+
+.jun1,.jun2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin: 0px 0px 0px 492px;
+    backface-visibility: hidden;
+    border-radius: 50%;
+    border: 4px solid lightgray;
+}
+
+
+
+
+.high1,.high2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin: 0px 0px 0px 842px;
+    backface-visibility: hidden;
+    border-radius: 50%;
+    border: 4px solid lightgray;
+}
+
+.uni1,.uni2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin: 0px 0px 0px 1200px;
+    backface-visibility: hidden;
+    border-radius: 50%;
+    border: 4px solid lightgray;
+}
+
+.time {
+    position: relative;
+    height: 50px;
+    font-size: 20px;
+    color: #606060;
+    font-weight:bold;
+}
+.timeline {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    border-top: 4px solid #C99C92;
+    width: 95%;
+    margin: 10px 0px 0px 20px;
+    margin-top: 5px;
+}
+
+.timeline li {
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 30%;
+}
+
+
